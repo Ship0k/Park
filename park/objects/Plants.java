@@ -7,9 +7,11 @@ package park.objects;
 public enum Plants {
    BIRCH("Берёза"), OAK("Дуб"), PINE("Сосна"), SPRUCE("Ель"), MAPLE("Клен");
    String rusName;
+   
    Plants(String rus) {
        rusName = rus;
    }
+   
    public String toString() {
        return rusName;
    }
