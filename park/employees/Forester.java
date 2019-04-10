@@ -13,6 +13,7 @@ public class Forester {
     private String report = "Лесник отчитывается: ";
     ArrayList<Plants> modef = new ArrayList<>();    //storage of plant species on which work is carried out
     private int hash;                               //variable for hash code
+    
     public void toFindOut(Owner ow) {
         hash = ow.task.hashCode();                  //passed before performing the body method
         if (ow.task.size() != 0) {
